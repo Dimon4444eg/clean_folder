@@ -14,7 +14,7 @@ setup(
     long_description_content_type="text/x-rst",
     entry_points={
         'console_scripts': [
-            'clean-folder = clean.functions:main'
+            'clean-folder = clean_folder.clean:main'
         ]
     },
     include_package_data=True
